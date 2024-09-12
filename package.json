@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "grammy": "^1.29.0",
+    "mqtt": "^5.10.0",
+    "nodemon": "^3.1.4",
+    "paho-mqtt": "^1.1.0",
+    "telegraf": "^4.16.3",
+    "typedi": "^0.10.0",
+    "ws": "^8.18.0",
+    "coin98_telegram_payment": "https://github.com/thanghd98/bot-payment"
+  },
+  "name": "telegram-stars-payment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": " nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanghoduc",
+  "license": "ISC",
+  "description": ""
+}
